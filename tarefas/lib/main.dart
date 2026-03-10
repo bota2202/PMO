@@ -33,10 +33,7 @@ class _PaginaTarefasState extends State<PaginaTarefas> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          'Meu Trello',
-          style: TextStyle(color: Colors.black),
-        ),
+        title: Text('Meu Trello', style: TextStyle(color: Colors.black)),
         backgroundColor: Colors.blue,
       ),
       body: Column(
